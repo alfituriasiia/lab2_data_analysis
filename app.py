@@ -7,7 +7,7 @@ import os
 import urllib
 import datetime
 
-# Функция скачивания (можно оставить на будущее, сейчас у тебя файлы уже есть)
+
 def download_data(province_id, year1=1981, year2=2024):
     data_folder = 'data'
     os.makedirs(data_folder, exist_ok=True)
